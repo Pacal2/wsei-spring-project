@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/comic")
+@CrossOrigin
 public class ComicController {
 
     @Autowired
